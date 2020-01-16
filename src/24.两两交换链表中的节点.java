@@ -1,3 +1,5 @@
+import Utils.ListNode;
+
 /*
  * @lc app=leetcode.cn id=24 lang=java
  *
