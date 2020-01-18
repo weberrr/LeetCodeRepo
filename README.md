@@ -14,8 +14,8 @@ Java中数组的定义：
   - [11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) 
   - [15.三数之和](https://leetcode-cn.com/problems/3sum) 
 - 数组+原地删改：
-  - [26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) ：双指针
-  - [27.移除元素](https://leetcode-cn.com/problems/remove-element) ：双指针
+  - [26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) ：快慢双指针
+  - [27.移除元素](https://leetcode-cn.com/problems/remove-element) ：快慢双指针
   - [31.下一个排列](https://leetcode-cn.com/problems/next-permutation) ：临界条件
 - 数组+二分查找：
   - [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)：三条件组合判断
@@ -45,3 +45,7 @@ class ListNode{
 
 - 交换操作
   - [24.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)：链表+递归
+  - [25.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/)：链表+递归+反转
+  - [61.旋转链表(右旋n步)](https://leetcode-cn.com/problems/rotate-list/description/)
+  - [92.反转链表(m->n)](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/])：链表+多指针
+
