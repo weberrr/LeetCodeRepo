@@ -49,3 +49,7 @@ class ListNode{
   - [61.旋转链表(右旋n步)](https://leetcode-cn.com/problems/rotate-list/description/)
   - [92.反转链表(m->n)](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/])：链表+多指针
 
+- 链表排序
+    - [143.重排链表](https://leetcode-cn.com/problems/reorder-list/description/)：拆分+反转+合并
+    - [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/description/)：依次插入
+    - [148.排序链表](https://leetcode-cn.com/problems/sort-list/description/)：快慢双指针+归并排序
