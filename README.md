@@ -53,3 +53,32 @@ class ListNode{
     - [143.重排链表](https://leetcode-cn.com/problems/reorder-list/description/)：拆分+反转+合并
     - [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/description/)：依次插入
     - [148.排序链表](https://leetcode-cn.com/problems/sort-list/description/)：快慢双指针+归并排序
+
+# 3. 栈
+## 3.1 Java中的Stack类
+
+如图所示，Stack来自于Vector，那么显然Stack的底层实现是数组。
+
+![stack](./media/stack.png)
+
+属于stack自己的方法包括：
+ 1. push(num) //入栈
+ 2. pop() //栈顶元素出栈
+ 3. empty() //判定栈是否为空
+ 4. peek() //获取栈顶元素
+ 5. search(num) //判端元素num是否在栈中
+
+## 3.2 相关LC题目
+- 面积问题
+    - [42.接雨水](https://leetcode-cn.com/problems/trapping-rain-water/description/)：常规做法-双指针；栈做法-墙入栈
+    - [84.柱状图中的最大矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/description/)：栈头预压入-1，栈中存放升序列
+    - [85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/description/)：84题的矩阵形式
+- 字符串问题
+    - [20.有效的括号]()
+    - [71.简化路径]()
+    - [216.去除重复字母]()
+- 二叉树遍历
+    - [94.二叉树的中序遍历]()
+    - [144.二叉树的前序遍历]()
+    - [145.二叉树的后序遍历]()
+
