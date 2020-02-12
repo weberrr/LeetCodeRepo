@@ -74,9 +74,9 @@ class ListNode{
     - [84.柱状图中的最大矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/description/)：栈头预压入-1，栈中存放升序列
     - [85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/description/)：84题的矩阵形式
 - 字符串问题
-    - [20.有效的括号]()
-    - [71.简化路径]()
-    - [216.去除重复字母]()
+    - [20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)：栈基础问题
+    - [71.简化路径](https://leetcode-cn.com/problems/simplify-path/description/)：路径的情况分析 + 栈存结果
+    - [316.去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/description/)：使用26字母的计数表来判断后面是否还有该字母
 - 二叉树遍历
     - [94.二叉树的中序遍历]()
     - [144.二叉树的前序遍历]()
