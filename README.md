@@ -76,9 +76,9 @@ class ListNode{
 - 字符串问题
     - [20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)：栈基础问题
     - [71.简化路径](https://leetcode-cn.com/problems/simplify-path/description/)：路径的情况分析 + 栈存结果
-    - [316.去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/description/)：使用26字母的计数表来判断后面是否还有该字母
+    - [316.去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/description/)：使用26字母的计数表来判断后面是否还有该字母 + 栈存储结果
 - 二叉树遍历
-    - [94.二叉树的中序遍历]()
-    - [144.二叉树的前序遍历]()
-    - [145.二叉树的后序遍历]()
+    - [94.二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)：判断右节点来出栈
+    - [144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)：栈存右节点
+    - [145.二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)：通过linkedlist来从后往前、从右往左入栈
 
