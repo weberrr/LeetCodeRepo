@@ -59,7 +59,7 @@ class ListNode{
 
 如图所示，Stack来自于Vector，那么显然Stack的底层实现是数组。
 
-![stack](./media/stack.png)
+![stack](./media/Stack.png)
 
 属于stack自己的方法包括：
  1. push(num) //入栈
@@ -80,5 +80,27 @@ class ListNode{
 - 二叉树遍历
     - [94.二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)：判断右节点来出栈
     - [144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)：栈存右节点
-    - [145.二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)：通过linkedlist来从后往前、从右往左入栈
+    - [145.二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)：通过linkedlist从上往右一边入栈，一边往list中addFirst加值；为空时再往左
 
+# 4. 队列
+## 4.1 Java中的Queue类
+常用的有双端队列 Deque, 优先队列 PriporityQueue, 双向链表 LinkedList, 阻塞队列 BlockingQueue:
+
+![Queue](./media/Queue.png)
+
+Queue的方法有：
+1. .add(num) = .offer(num)  //添加元素
+2. .poll() = .remove()  //移除并返回头部
+3. .peek() = .element() // 返回队列头部的元素
+4. .put()  //阻塞队列添加元素，如果队列满，则阻塞
+5. .take() //阻塞队列移除元素并返回头部，如果队列为空，则阻塞
+
+## 4.2 相关LC题目
+- 栈和队列的转换
+   - [225.用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/description/)：进出双队列实现 or 单队列
+   - [232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)
+- 利用优先队列进行排序
+   - [23.合并K个排序链表]()：
+   - [56.合并区间]()：
+   - [435.无重叠区间]()：
+   - [692.前k个高频词]()：
