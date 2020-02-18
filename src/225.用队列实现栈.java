@@ -1,9 +1,6 @@
 import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
 
-import javax.xml.namespace.QName;
 
 /*
  * @lc app=leetcode.cn id=225 lang=java
@@ -45,7 +42,6 @@ class MyStack {
 
     private Deque<Integer> inQueue;
     private Deque<Integer> outQueue;
-    private int top;
 
     /** Initialize your data structure here. */
     public MyStack() {

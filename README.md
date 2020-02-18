@@ -100,7 +100,7 @@ Queue的方法有：
    - [225.用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/description/)：进出双队列实现 or 单队列
    - [232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)
 - 利用优先队列进行排序
-   - [23.合并K个排序链表]()：
-   - [56.合并区间]()：
-   - [435.无重叠区间]()：
-   - [692.前k个高频词]()：
+   - [23.合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/description/)：建立链表结点的优先队列
+   - [56.合并区间](https://leetcode-cn.com/problems/merge-intervals/description/)：利用comparator来排序
+   - [435.无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/description/)：判断每个区间的尾部
+   - [692.前k个高频词](https://leetcode-cn.com/problems/top-k-frequent-words/description/)：哈希表+优先队列
