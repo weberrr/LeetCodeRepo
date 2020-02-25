@@ -39,7 +39,7 @@ class Solution {
             }
             map.put(nums[i], i);
         }
-        return null;
+        throw new IllegalArgumentException("no solution");
     }
 }
 // @lc code=end
