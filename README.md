@@ -145,12 +145,16 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 ## 5.2 相关LC题目
 - 空间换时间
   - [1. 两数之和](https://leetcode-cn.com/problems/two-sum/description/)：哈希表 + 单次循环
+  - [274. H指数](https://leetcode-cn.com/problems/h-index/description/)
 
 - 哈希表记录下标
   - [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)：哈希表 + 滑动窗口
+  - [202. 快乐数](https://leetcode-cn.com/problems/happy-number/description/)
 
 - 哈希表记录频次
   - [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/description/)：哈希表统计单词表次数 + 滑动双指针
+  - [187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/description/)
+
 
 
 # 6. 排序
