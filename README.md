@@ -158,3 +158,18 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 
 
 # 6. 排序
+## 6.1 排序总结
+|排序算法|时间复杂度|空间复杂度|是否稳定排序|是否原地排序|
+|:---:|:---:|:---:|:---:|:---:|
+|冒泡排序|O(n^2)|O(1)|✅|✅|
+|插入排序|O(n^2)|O(1)|✅|✅|
+|选择排序|O(n^2)|O(1)|❌|✅|
+|归并排序|O(nlogn)|O(n)|✅|❌|
+|快速排序|O(nlogn)|O(logn)|❌|✅|
+|桶排序|O(n)|O(k)|✅|❌|
+|计数排序|O(n+k)|O(k)|✅|❌|
+|基数排序|O(dn)|O(k)|✅|❌|
+## 6.2 排序LC题目
+  - [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) ：计数排序 / 荷兰旗三指针
+  - [148. 排序链表](https://leetcode-cn.com/problems/sort-list/description/)：快慢双指针切分 + 归并排序
+  - [164. 最大间距](https://leetcode-cn.com/problems/maximum-gap/description/)：桶排序
