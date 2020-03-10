@@ -157,8 +157,9 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 
 
 
-# 6. 排序
-## 6.1 排序总结
+# 6. 排序与查找
+## 6.1 总结
+排序：
 |排序算法|时间复杂度|空间复杂度|是否稳定排序|是否原地排序|
 |:---:|:---:|:---:|:---:|:---:|
 |冒泡排序|O(n^2)|O(1)|✅|✅|
@@ -169,7 +170,16 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 |桶排序|O(n)|O(k)|✅|❌|
 |计数排序|O(n+k)|O(k)|✅|❌|
 |基数排序|O(dn)|O(k)|✅|❌|
+
+查找：
+
+有序数组的二分查找以及其变型
 ## 6.2 排序LC题目
+- 排序
   - [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) ：计数排序 / 荷兰旗三指针
   - [148. 排序链表](https://leetcode-cn.com/problems/sort-list/description/)：快慢双指针切分 + 归并排序
   - [164. 最大间距](https://leetcode-cn.com/problems/maximum-gap/description/)：桶排序
+- 二分查找
+  - [4. 寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/)：分堆 + 二分
+  - [50. Pow(x,n)](https://leetcode-cn.com/problems/powx-n/description/)：幂的二分
+  - [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)：中值与右值判断
