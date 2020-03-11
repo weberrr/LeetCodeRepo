@@ -183,3 +183,14 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
   - [4. 寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/)：分堆 + 二分
   - [50. Pow(x,n)](https://leetcode-cn.com/problems/powx-n/description/)：幂的二分
   - [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)：中值与右值判断
+
+# 7. 贪心算法
+贪心算法解题步骤：
+1. 定义贪心问题：针对一组数据，定义了限制值和期望值，希望从中选几个数据，在满足限制值情况下，期望值最大。
+2. 尝试贪心算法：每次选择对限制值相等贡献量情况下，期望值最大的数据。
+3. 举例查看是否最优。
+
+## 7.1 相关LC题目
+- [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/description/)：
+- [135. 分发糖果](https://leetcode-cn.com/problems/candy/description/)：
+- [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/description/)
