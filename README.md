@@ -166,7 +166,7 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 |插入排序|O(n^2)|O(1)|✅|✅|
 |选择排序|O(n^2)|O(1)|❌|✅|
 |归并排序|O(nlogn)|O(n)|✅|❌|
-|快速排序|O(nlogn)|O(logn)|❌|✅|
+|快速排序|O(nlogn)|O(logn) ：递归栈|❌|✅|
 |桶排序|O(n)|O(k)|✅|❌|
 |计数排序|O(n+k)|O(k)|✅|❌|
 |基数排序|O(dn)|O(k)|✅|❌|
@@ -191,6 +191,18 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 3. 举例查看是否最优。
 
 ## 7.1 相关LC题目
-- [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/description/)：
-- [135. 分发糖果](https://leetcode-cn.com/problems/candy/description/)：
+- [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/description/)
+- [135. 分发糖果](https://leetcode-cn.com/problems/candy/description/)
 - [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/description/)
+
+# 8. 分治算法
+分治算法解题步骤：
+1. 分解：将原问题分解为一系列子问题
+2. 解决：递归的求解各个子问题
+3. 合并：将子问题合并为原问题
+
+## 8.1 相关LC题目
+- [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/)
+- [215. 数组中的第k个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
+- [240. 搜索二维矩阵2](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)
+
