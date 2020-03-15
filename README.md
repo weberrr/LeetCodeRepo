@@ -206,3 +206,27 @@ Map 类没有继承Collection接口，提供key-value键值对映射。
 - [215. 数组中的第k个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
 - [240. 搜索二维矩阵2](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)
 
+# 9. 回溯算法
+回溯算法解题步骤： ORT原则
+
+以 [22. 括号生成]() 来说明：
+1. 选择(Options)：每次回溯有 `(`,`)` 两种选择；
+2. 限制(Restraints))：如果`left_num < right_num`,表明左括号用得多，可以加右括号也可以加左括号；如果`left_num = right_num`,表明左右用的一样多，只可以加左括号。
+3. 结束(Termination)：
+   如果 `left_num` 和 `right_num` 都为0，则括号用完。
+
+## 9.1 相关LC题目
+- [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/description/)：以p的长度作为切分条件
+- [46. 全排列]()：使用交换来节省空间
+- [47. 全排列2]()：使用标记位来过滤重复
+- [60. 第k个排列]()：使用循环，一位一位的确定
+
+# 10. 动态规划算法
+动态规划解题步骤：状态方程法
+1. 找到最优子结构
+2. 写状态转移方程
+
+## 10.1 相关LC题目
+- [5. 最长回文子串]()
+- [72. 编辑距离]()
+- [85. 最大矩形]()

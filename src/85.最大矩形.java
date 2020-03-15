@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Stack;
 
 /*
@@ -32,7 +33,27 @@ import java.util.Stack;
 
 // @lc code=start
 class Solution {
+
+    // 法1：dp
     
+    // 法2：stack
+    public int maximalRectangle(char[][] matrix) {
+        if(matrix==null||matrix.length==0) return 0;
+        int area = 0;
+        int[] dp = new int [matrix[0].length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if(matrix[i][j]=='1'){
+                    dp[j]+=1;
+                }else{
+                    dp[j]=0;
+                }
+            }
+            area = Math.max(area,largestRectangleArea(dp));
+        }
+        return area;
+    }
+
     public int largestRectangleArea(int[] heights) {
         if(heights==null || heights.length ==0) return 0;
         Stack<Integer> stack = new Stack<>();
@@ -49,23 +70,6 @@ class Solution {
         while(stack.peek()!=-1){
             int idx = stack.pop();
             area = Math.max(area, (current - stack.peek() - 1) * heights[idx]);
-        }
-        return area;
-    }
-
-    public int maximalRectangle(char[][] matrix) {
-        if(matrix==null||matrix.length==0) return 0;
-        int area = 0;
-        int[] dp = new int [matrix[0].length];
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if(matrix[i][j]=='1'){
-                    dp[j]+=1;
-                }else{
-                    dp[j]=0;
-                }
-            }
-            area = Math.max(area,largestRectangleArea(dp));
         }
         return area;
     }
